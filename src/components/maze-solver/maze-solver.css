@@ -1,0 +1,50 @@
+.maze-solver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  gap: 16px;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 4px;
+  width: 100%;
+  & > button {
+    flex: 1;
+  }
+}
+
+.maze {
+  border: 2px darkgray solid;
+}
+
+.maze-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.maze-cell {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(229 231 235);
+}
+
+.results-container {
+  min-height: 56px;
+}
+
+.success-text {
+  color: green;
+  font-weight: 600;
+}

@@ -1,11 +1,11 @@
+// components
+import { MazeSolver } from "./components/maze-solver/maze-solver";
+
+// styles
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <h1>Maze Solver</h1>
-    </>
-  );
+  return <MazeSolver />;
 }
 
 export default App;
